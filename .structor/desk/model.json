@@ -9,34 +9,102 @@
           "variant": "default",
           "props": {
             "style": {
-              "color": "#6b6161"
+              "fontFamily": ""
             }
           },
           "children": [
             {
-              "type": "div",
+              "type": "h1",
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "100px",
-                  "backgroundColor": "#fcecd7",
-                  "borderRadius": "4px",
-                  "textAlign": "center",
-                  "paddingTop": "40px",
-                  "paddingBottom": "40px"
+                  "color": "#62c9c5",
+                  "fontSize": "40px"
                 }
               },
               "children": [
                 {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "display": "flex",
+                          "justifyContent": "center",
+                          "height": "100px",
+                          "alignItems": "center",
+                          "borderRadius": "4px"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
                   "type": "span",
-                  "text": "Hello, world stella yoo",
+                  "text": "I'm Candyoo",
                   "props": {
                     "style": {
-                      "lineHeight": "20px",
-                      "color": "#4a90e2",
-                      "fontSize": "30px"
+                      "fontSize": "100px"
                     }
                   }
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "text": "유윤경 stelllayoo",
+                  "props": {
+                    "style": {
+                      "fontWeight": 400,
+                      "fontSize": "30px",
+                      "color": "#666666"
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "text": "UX디자인을 하고 있습니다."
+                }
+              ]
+            },
+            {
+              "type": "img",
+              "variant": "default",
+              "props": {
+                "src": "https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18527728_1354309257985572_3692717692135311726_n.jpg?_nc_cat=0&oh=2741a6bffe6b14acd0c00d42a6258e40&oe=5BFA541D",
+                "style": {
+                  "width": "300"
+                }
+              },
+              "children": []
+            },
+            {
+              "type": "a",
+              "variant": "default",
+              "props": {
+                "href": "https://www.facebook.com/stellayoo24"
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "https://www.facebook.com/stellayoo24"
                 }
               ]
             }
@@ -63,6 +131,45 @@
                 {
                   "type": "span",
                   "text": "work page"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "Page17",
+      "pagePath": "/about",
+      "children": [
+        {
+          "type": "div",
+          "props": {
+            "style": {
+              "display": "flex",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "padding": "1em"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "children": [
+                {
+                  "type": "h3",
+                  "props": {
+                    "style": {
+                      "padding": "1em",
+                      "textAlign": "center"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Click on me and start creating a new cool component."
+                    }
+                  ]
                 }
               ]
             }
