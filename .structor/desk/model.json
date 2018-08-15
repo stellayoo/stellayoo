@@ -29,12 +29,12 @@
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello Colorful World 🖍",
+                  "text": "Hello, yoo ",
                   "props": {
                     "style": {
                       "lineHeight": "20px",
-                      "backgroundColor": "#b8e986",
-                      "color": "#4a90e2"
+                      "color": "#4a90e2",
+                      "fontSize": "12px"
                     }
                   }
                 }
