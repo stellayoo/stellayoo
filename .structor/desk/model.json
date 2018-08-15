@@ -29,7 +29,7 @@
               "children": [
                 {
                   "type": "span",
-                  "text": "Hello, yoo ",
+                  "text": "Hello, world stella yoo",
                   "props": {
                     "style": {
                       "lineHeight": "20px",

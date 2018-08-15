@@ -27,7 +27,7 @@ class HomePage extends Component {
             <span
               style={{ lineHeight: "20px", color: "#4a90e2", fontSize: "30px" }}
             >
-              Hello, world stella yoo
+              너무 덥네요
             </span>
           </div>
         </div>
