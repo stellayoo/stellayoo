@@ -1,118 +1,6 @@
 {
   "pages": [
     {
-      "pageName": "HomePage",
-      "pagePath": "/home",
-      "children": [
-        {
-          "type": "div",
-          "variant": "default",
-          "props": {
-            "style": {
-              "fontFamily": ""
-            }
-          },
-          "children": [
-            {
-              "type": "h1",
-              "variant": "default",
-              "props": {
-                "style": {
-                  "color": "#62c9c5",
-                  "fontSize": "40px"
-                }
-              },
-              "children": [
-                {
-                  "type": "div",
-                  "variant": "default",
-                  "props": {},
-                  "children": [
-                    {
-                      "type": "div",
-                      "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "flex",
-                          "justifyContent": "center",
-                          "height": "100px",
-                          "alignItems": "center",
-                          "borderRadius": "4px"
-                        }
-                      },
-                      "children": []
-                    }
-                  ]
-                },
-                {
-                  "type": "span",
-                  "text": "I'm Candyoo",
-                  "props": {
-                    "style": {
-                      "fontSize": "100px"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "p",
-              "variant": "default",
-              "props": {},
-              "children": [
-                {
-                  "type": "span",
-                  "text": "유윤경 stelllayoo",
-                  "props": {
-                    "style": {
-                      "fontWeight": 400,
-                      "fontSize": "30px",
-                      "color": "#666666"
-                    }
-                  }
-                }
-              ]
-            },
-            {
-              "type": "p",
-              "variant": "default",
-              "props": {},
-              "children": [
-                {
-                  "type": "span",
-                  "text": "UX디자인을 하고 있습니다."
-                }
-              ]
-            },
-            {
-              "type": "img",
-              "variant": "default",
-              "props": {
-                "src": "https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18527728_1354309257985572_3692717692135311726_n.jpg?_nc_cat=0&oh=2741a6bffe6b14acd0c00d42a6258e40&oe=5BFA541D",
-                "style": {
-                  "width": "300"
-                }
-              },
-              "children": []
-            },
-            {
-              "type": "a",
-              "variant": "default",
-              "props": {
-                "href": "https://www.facebook.com/stellayoo24"
-              },
-              "children": [
-                {
-                  "type": "span",
-                  "text": "https://www.facebook.com/stellayoo24"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "pageName": "Page6",
       "pagePath": "/work",
       "children": [
@@ -124,13 +12,147 @@
               "props": {
                 "style": {
                   "textAlign": "center",
-                  "padding": "15px"
+                  "height": "100%",
+                  "padding": "30px"
                 }
               },
               "children": [
                 {
                   "type": "span",
-                  "text": "work page"
+                  "text": "I'm candyoo",
+                  "props": {
+                    "style": {
+                      "color": "#24d8d0",
+                      "fontFamily": "",
+                      "fontSize": "50px",
+                      "fontWeight": 100
+                    }
+                  }
+                }
+              ]
+            }
+          ],
+          "props": {
+            "style": {
+              "height": "100px"
+            }
+          }
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "height": "50px",
+              "fontSize": "16px",
+              "position": "relative"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "backgroundColor": "#e45353",
+                  "position": "absolute",
+                  "right": "14px",
+                  "top": "12px"
+                }
+              },
+              "children": [
+                {
+                  "type": "h1",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline-block"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "About"
+                    }
+                  ]
+                },
+                {
+                  "type": "h2",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "inline-block",
+                      "marginLeft": "18px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "Work",
+                      "props": {
+                        "style": {
+                          "fontSize": "16px"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "div",
+          "variant": "default",
+          "props": {
+            "style": {
+              "position": "relative"
+            }
+          },
+          "children": [
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline-block",
+                  "justifyContent": "center",
+                  "height": "300px",
+                  "alignItems": "center",
+                  "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px",
+                  "width": "46%",
+                  "marginLeft": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Empty div",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "display": "inline-block",
+                  "justifyContent": "center",
+                  "height": "300px",
+                  "alignItems": "center",
+                  "backgroundColor": "#fcecd7",
+                  "borderRadius": "4px",
+                  "width": "46%",
+                  "marginLeft": "2%"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "Empty div",
+                  "props": {}
                 }
               ]
             }
