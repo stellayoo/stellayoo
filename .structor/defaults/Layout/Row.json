@@ -2,8 +2,80 @@
   {
     "type": "Row",
     "variant": "default",
-    "children": [],
-    "namespace": "Layout"
+    "children": [
+      {
+        "type": "Column",
+        "variant": "default",
+        "children": [
+          {
+            "type": "div",
+            "variant": "default",
+            "props": {
+              "style": {
+                "backgroundColor": "#948585",
+                "height": "50px",
+                "width": "50%"
+              }
+            },
+            "children": []
+          }
+        ],
+        "namespace": "Layout",
+        "props": {
+          "col": 6
+        }
+      },
+      {
+        "type": "Column",
+        "variant": "default",
+        "children": [
+          {
+            "type": "div",
+            "variant": "default",
+            "props": {
+              "style": {
+                "height": "50px",
+                "backgroundColor": "#9f5d5d",
+                "width": "50%"
+              },
+              "col": 3
+            },
+            "children": []
+          }
+        ],
+        "namespace": "Layout",
+        "props": {
+          "col": 3
+        }
+      },
+      {
+        "type": "Column",
+        "variant": "default",
+        "children": [
+          {
+            "type": "div",
+            "variant": "default",
+            "props": {
+              "style": {
+                "backgroundColor": "#826161",
+                "height": "50px",
+                "width": "50%",
+                "position": "absolute",
+                "right": "0px"
+              },
+              "col": 3
+            },
+            "children": []
+          }
+        ],
+        "namespace": "Layout",
+        "props": {
+          "col": 3
+        }
+      }
+    ],
+    "namespace": "Layout",
+    "props": {}
   },
   {
     "type": "Row",
