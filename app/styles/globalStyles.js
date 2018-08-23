@@ -16,6 +16,7 @@ injectGlobal`
   /* Fonts */
   ${FuturaPTWeb}
   ${Omnes}
+  @import url('https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet');
   /* Icons */
   /* Body Styles */
   body {
