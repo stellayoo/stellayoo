@@ -346,15 +346,16 @@
       ]
     },
     {
-      "pageName": "Page17",
+      "pageName": "Page74",
       "pagePath": "/about",
       "children": [
         {
           "type": "div",
           "props": {
             "style": {
-              "height": "3000px",
-              "padding": "30px"
+              "height": "80%",
+              "padding": "30px",
+              "backgroundColor": "#ffffff"
             }
           },
           "children": [
@@ -363,8 +364,7 @@
               "variant": "default",
               "props": {
                 "style": {
-                  "height": "50px",
-                  "backgroundColor": "#ffffff"
+                  "height": "60px"
                 }
               },
               "children": [
@@ -381,12 +381,25 @@
                           "variant": "default",
                           "props": {
                             "style": {
-                              "backgroundColor": "#948585",
                               "height": "50px",
-                              "width": "50%"
+                              "width": "50%",
+                              "paddingTop": "10px"
                             }
                           },
-                          "children": []
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "40px",
+                                  "color": "#24d7cf"
+                                }
+                              },
+                              "children": [],
+                              "text": "I'm candyoo"
+                            }
+                          ]
                         }
                       ],
                       "namespace": "Layout",
@@ -403,30 +416,6 @@
                           "variant": "default",
                           "props": {
                             "style": {
-                              "height": "50px",
-                              "backgroundColor": "#9f5d5d",
-                              "width": "50%"
-                            },
-                            "col": 3
-                          },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "backgroundColor": "#826161",
                               "height": "50px",
                               "width": "50%",
                               "position": "absolute",
@@ -441,34 +430,6 @@
                       "props": {
                         "col": 3
                       }
-                    }
-                  ],
-                  "namespace": "Layout"
-                },
-                {
-                  "type": "Row",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "height": "60px",
-                              "backgroundColor": "#c66969"
-                            }
-                          },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 6
-                      }
                     },
                     {
                       "type": "Column",
@@ -479,261 +440,284 @@
                           "variant": "default",
                           "props": {
                             "style": {
-                              "height": "60px"
-                            }
+                              "height": "50px",
+                              "width": "50%",
+                              "position": "absolute",
+                              "right": "0px",
+                              "paddingTop": "20px"
+                            },
+                            "col": 3
                           },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 6
-                      }
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "marginTop": "50px"
-                    }
-                  }
-                },
-                {
-                  "type": "Row",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "position": "relative"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "position": "absolute",
+                                      "left": "50%",
+                                      "transform": "translateX(-50%)"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "Work"
+                                }
+                              ]
+                            }
+                          ]
+                        },
                         {
                           "type": "div",
                           "variant": "default",
                           "props": {
                             "style": {
-                              "height": "400px",
-                              "backgroundColor": "#e1e1e1"
-                            }
+                              "height": "50px",
+                              "width": "50%",
+                              "position": "absolute",
+                              "paddingTop": "20px",
+                              "left": "0px"
+                            },
+                            "col": 3
                           },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 12
-                      }
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "marginTop": "50px"
-                    }
-                  }
-                },
-                {
-                  "type": "Row",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "height": "30px",
-                              "backgroundColor": "#e1e1e1",
-                              "width": "60%"
+                          "children": [
+                            {
+                              "type": "div",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "position": "relative"
+                                }
+                              },
+                              "children": [
+                                {
+                                  "type": "span",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "position": "absolute",
+                                      "transform": "translateX(-50%)",
+                                      "right": "0px"
+                                    }
+                                  },
+                                  "children": [],
+                                  "text": "About"
+                                }
+                              ]
                             }
-                          },
-                          "children": []
+                          ]
                         }
                       ],
                       "namespace": "Layout",
                       "props": {
                         "col": 3
                       }
-                    },
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {}
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginTop": "150px",
+                  "backgroundColor": "#ffffff"
+                }
+              },
+              "children": [
+                {
+                  "type": "div",
+                  "variant": "default",
+                  "props": {},
+                  "children": [
                     {
-                      "type": "Column",
+                      "type": "div",
                       "variant": "default",
-                      "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "height": "30px"
-                            }
-                          },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
                       "props": {
-                        "col": 3
-                      }
-                    },
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "height": "30px",
-                              "backgroundColor": "#99999"
-                            }
-                          },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3,
                         "style": {
-                          "height": "30px"
+                          "height": "80px",
+                          "backgroundColor": "#ffffff"
                         }
-                      }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Adding prestige to flow",
+                          "props": {
+                            "style": {
+                              "fontSize": "50px",
+                              "color": "#24d7cf",
+                              "fontStyle": "normal",
+                              "fontFamily": "'roboto'"
+                            }
+                          }
+                        }
+                      ]
                     },
                     {
-                      "type": "Column",
+                      "type": "div",
                       "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "backgroundColor": "#ffffff"
+                        }
+                      },
                       "children": [
                         {
-                          "type": "div",
-                          "variant": "default",
+                          "type": "span",
+                          "text": "흐름에 나의 가치를 더하다",
                           "props": {
                             "style": {
-                              "height": "30px"
+                              "fontSize": "36px",
+                              "color": "#24d7cf",
+                              "fontFamily": ""
                             }
-                          },
-                          "children": []
+                          }
                         }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3
-                      }
-                    }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "marginTop": "50px"
-                    }
-                  }
-                },
-                {
-                  "type": "Row",
-                  "variant": "default",
-                  "children": [
-                    {
-                      "type": "Column",
-                      "variant": "default",
-                      "children": [
-                        {
-                          "type": "div",
-                          "variant": "default",
-                          "props": {
-                            "style": {
-                              "height": "200px",
-                              "backgroundColor": "#e1e1e1",
-                              "width": "90%"
-                            }
-                          },
-                          "children": []
-                        }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3
-                      }
+                      ]
                     },
                     {
-                      "type": "Column",
+                      "type": "div",
                       "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "154px",
+                          "backgroundColor": "#ffffff",
+                          "color": "#666666"
+                        }
+                      },
                       "children": [
                         {
-                          "type": "div",
-                          "variant": "default",
+                          "type": "span",
+                          "text": "나는 끊임없이 변화하는 디지털 사회의 흐름을 UX적인 관점으로 바라보고 사용자의 need를 파악하여 브랜딩합니다.\n\n그리고 나의 색깔과 가치를 조형의 기본 단위인 '점'으로 정의합니다.\n\n점은 방향이나 면적등은 갖고 있지않지만 점의 개수, 위치, 밝기, 크기, 그리는 재료, 다른 점들과의 관계 등에 따라\n\n독특한 느낌을 전달 할 수 있으며, 새로운 형태나 움직임, 공간감을 나타냅니다.  \n\n나는 나의 가치를 증명할 때 점의 특성을 모토로 삼아 기본기에 충실하면서 이미 산출된 것들에 의존하지않고\n\n다양한 시각에서 크리에이티브와 편의성을 결합시켜 도출한 결과물로 출발합니다.\n\n또한 각기다른 성향을 가진 조직간의 협업을 통해 상호를 존중하며, 나의 색깔과 가치를 확산시킵니다.\n\n이러한 이해와 경험을 바탕으로 나는 디자이너로써 성장할 것을 확신합니다.",
                           "props": {
                             "style": {
-                              "height": "400px",
-                              "backgroundColor": "#999999",
-                              "width": "90%",
-                              "position": "absolute",
-                              "left": "3.3%"
+                              "fontSize": "24px",
+                              "color": "#666666",
+                              "fontFamily": ""
                             }
-                          },
-                          "children": []
+                          }
                         }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3
-                      }
+                      ]
                     },
                     {
-                      "type": "Column",
+                      "type": "div",
                       "variant": "default",
+                      "props": {
+                        "style": {
+                          "height": "100px",
+                          "backgroundColor": "#ffffff",
+                          "color": "#666666",
+                          "marginTop": "60px"
+                        }
+                      },
                       "children": [
                         {
-                          "type": "div",
-                          "variant": "default",
+                          "type": "span",
+                          "text": "HI, I'm Korean UX Designer Stella Youn Kyung Yoo.\n\ncontinuously monitors the constantly developing stream of the\n\ndigital world with a UX perspective, and brands according to the users’ needs.\n\nI define my value with ‘points’ which are the basic constituents of structures.\n\nPoints do not have directional or areal traits, but only have positional characteristics.\n\nThe number of points, their positions, brightness, size, the material with which they are drawn,\n\nthe dependency with other points expresses shape, movement, and space.\n\nIt allows us to convey feelings, and fabricate new figures and shapes, lines and faces, for example.\n\nWith this in mind, I do not rely on what has already been established,\n\nbut push ourselves to create and combine convenience with multiple perspectives.\n\nI also respect our diverse employees when working together, and try to disseminate our color and values.\n\nI'm confident that I will grow as a designer based on these values ​​and experiences.",
                           "props": {
                             "style": {
-                              "height": "400px",
-                              "backgroundColor": "#999999",
-                              "width": "90%",
-                              "right": "3.3%",
-                              "position": "absolute"
+                              "fontSize": "24px",
+                              "color": "#666666",
+                              "fontFamily": ""
                             }
-                          },
-                          "children": []
+                          }
                         }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3
-                      }
+                      ]
                     },
                     {
-                      "type": "Column",
+                      "type": "div",
                       "variant": "default",
+                      "props": {
+                        "style": {
+                          "backgroundColor": "#ffffff",
+                          "marginTop": "200px"
+                        }
+                      },
                       "children": [
                         {
-                          "type": "div",
+                          "type": "Row",
                           "variant": "default",
-                          "props": {
-                            "style": {
-                              "height": "400px",
-                              "backgroundColor": "#999999",
-                              "width": "90%",
-                              "position": "absolute",
-                              "right": "0px"
+                          "children": [
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "backgroundColor": "#948585",
+                                      "height": "500px",
+                                      "width": "90%"
+                                    }
+                                  },
+                                  "children": [
+                                    {
+                                      "type": "img",
+                                      "variant": "default",
+                                      "props": {
+                                        "src": "https://scontent-icn1-1.xx.fbcdn.net/v/t1.0-9/18527728_1354309257985572_3692717692135311726_n.jpg?_nc_cat=0&oh=2741a6bffe6b14acd0c00d42a6258e40&oe=5BFA541D",
+                                        "style": {
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 6
+                              }
+                            },
+                            {
+                              "type": "Column",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "div",
+                                  "variant": "default",
+                                  "props": {
+                                    "style": {
+                                      "height": "500px",
+                                      "backgroundColor": "#9f5d5d",
+                                      "width": "50%",
+                                      "right": "0px",
+                                      "position": "relative"
+                                    },
+                                    "col": 3
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "namespace": "Layout",
+                              "props": {
+                                "col": 3
+                              }
                             }
-                          },
-                          "children": []
+                          ],
+                          "namespace": "Layout",
+                          "props": {}
                         }
-                      ],
-                      "namespace": "Layout",
-                      "props": {
-                        "col": 3
-                      }
+                      ]
                     }
-                  ],
-                  "namespace": "Layout",
-                  "props": {
-                    "style": {
-                      "marginTop": "50px"
-                    }
-                  }
+                  ]
                 }
               ]
             }
